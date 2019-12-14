@@ -1,0 +1,18 @@
+CREATE DATABASE part_komputer;
+use part_komputer
+
+CREATE TABLE spare_part (
+id INT(5) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+nama_produk VARCHAR(25) NOT NULL,
+vendor varchar(15),
+stok int,
+harga int(10)
+);
+
+
+insert into spare_part (id, nama_produk, vendor, stok, harga) VALUES
+('01','RTX2080 GPU','NVIDIA','5','10.000.000'),
+('02','Core i7 8000M','INTEL','6','20.000.000'),
+('03','AMD A8','AMD','10','4.000.000'),
+ ('04','GTX1080 GPU','NVIDIA','8','7.000.000'),
+ ('05','Radeon 260x GPU','AMD','5','5.000.000');

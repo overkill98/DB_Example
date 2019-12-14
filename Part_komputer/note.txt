@@ -1,0 +1,12 @@
+nama databasenya part_computer
+nama tabelnya spare_part
+kolom tabel :
+    id 
+    nama_produk
+    vendor
+    stok 
+    harga
+
+selamat belajar 
+ingat ujian UTS adalah sebagian kecil dari ujian hidup anda
+
